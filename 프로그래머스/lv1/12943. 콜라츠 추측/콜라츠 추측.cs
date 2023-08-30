@@ -1,6 +1,6 @@
 public class Solution
 {
-    public long solution(long num) 
+    public int solution(long num) 
     {
         long answer = 0;
         int i = 0;
@@ -18,6 +18,6 @@ public class Solution
                 return -1; 
         }
         answer = i - 1;
-        return answer;
+        return (int)answer;
     }
 }
