@@ -2,7 +2,7 @@ public class Solution
 {
     public int solution(long num) 
     {
-        long answer = 0;
+        int answer = 0;
         int i = 0;
         for (i = 1; num != 1; i++)
         {
@@ -18,6 +18,6 @@ public class Solution
                 return -1; 
         }
         answer = i - 1;
-        return (int)answer;
+        return answer;
     }
 }
