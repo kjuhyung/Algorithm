@@ -1,5 +1,3 @@
-using System;
-
 class Solution
 {
     public long solution(int price, int money, int count)
